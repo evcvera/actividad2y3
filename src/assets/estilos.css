@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3, h4 {
+    padding: 0px 0px 10px 0px;
+}
+
+.producto {
+    max-width: 1200px;
+    max-height: 667px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+  /*  background-image: url("./images/fondo.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%; */
+
+
+
+        /* The image used 
+        background-image: url("./images/fondo.jpg");
+  
+        height: 100%; 
+      
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+
+
+        background: url("./images/fondo.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
+header {
+    background: #ffffff;
+    width: 90%;
+    margin: auto;
+}
+
+header, .main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+header nav {
+    background: #528FD5;
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background: #75ACEC;
+}
+
+.main .articles {
+    width: 68.5%;
+    margin-right: 1.5%;
+    float: left;
+}
+
+.main .articles article {
+    padding: 20px;
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+
+.tabla {
+    padding: 20px;
+    background: #ffffff;
+    margin-bottom: 20px;
+    width: 96%;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    background: #ff8000;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    background: #343a40;
+    color: #fff;
+    clear: both;
+    text-align: center;
+}
+
+.article__general-1 {
+    background-color: #343a40;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.card__margin {
+    padding: 0px 0px 10px;
+}
+
+.top__image--buttons {
+    justify-content: space-around;
+    display: flex;
+}
+
+.ol__li {
+    text-align: center;
+    list-style: none;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 959px) {
+    .board__section, .translator__section, .patients__section, .configuration__section, .account__section, .session__section {
+        margin-top: 0px !important;
+        padding-top: 50px !important;
+    }
+    .account__section {
+        overflow: scroll;
+        height: 100%;
+        display: inline;
+    }
+    .account__page {
+        margin: -350px 15px 100px !important;
+    }
+    /* TYPOGRAPHY */
+    h1 {
+        font-size: 25px !important;
+    }
+    h2 {
+        font-size: 22px !important;
+    }
+    h3, h4 {
+        font-size: 19px !important;
+        font-weight: 300;
+    }
+    h5 {
+        font-size: 18px !important;
+    }
+    h6 {
+        font-size: 17px !important;
+    }
+    p {
+        font-size: 15px !important;
+    }
+    a {
+        font-size: 15px !important;
+    }
+}
